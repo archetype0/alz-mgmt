@@ -38,6 +38,6 @@ variable "root_parent_management_group_id" {
 
 variable "default_location" {
   type        = string
-  default     = ""
+  default     = "swedencentral"
   description = ""
 }
