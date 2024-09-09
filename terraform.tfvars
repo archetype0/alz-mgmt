@@ -1,0 +1,7 @@
+configuration_file_path         = "config.yaml"
+default_postfix                 = "re"
+root_parent_management_group_id = ""
+starter_location                = "swedencentral"
+subscription_id_connectivity    = "021124c7-8f3d-4bd7-a631-21ab942d69e5"
+subscription_id_identity        = "fb9c669f-0b1d-47b1-a8ff-c685678f6cac"
+subscription_id_management      = "450b2a51-9f33-4ef1-9f67-f2b149bd1e38"
