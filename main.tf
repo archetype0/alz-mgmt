@@ -153,6 +153,8 @@ module "lz_vending" {
 
   location = each.value.location
 
+  subscription_enabled = false
+
   subscription_id = each.value.subscription
 
   network_watcher_resource_group_enabled = true
@@ -164,8 +166,4 @@ module "lz_vending" {
   # virtual network variables
   virtual_network_enabled = true
   virtual_networks        = each.value.virtual_networks
-
-  # role assignment variables
-  role_assignment_enabled = true
-  role_assignments        = each.value.role_assignments
 }

@@ -1,6 +1,4 @@
 ---
-name: lz1
-workload: Production
 location: swedencentral
 management_group_id: contoso-corp
 virtual_networks:
