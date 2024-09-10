@@ -155,8 +155,6 @@ module "lz_vending" {
 
   subscription_alias_enabled = false
 
-  subscription_update_existing = true
-
   subscription_display_name = each.value.display_name
 
   subscription_id = each.value.subscription
