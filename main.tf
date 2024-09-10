@@ -152,8 +152,8 @@ module "lz_vending" {
   for_each = local.landing_zone_data_map
 
   location = each.value.location
-  
-  subscription_alias_enabled = true
+
+  subscription_alias_enabled = false
 
   subscription_id = each.value.subscription
 
