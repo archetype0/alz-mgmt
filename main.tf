@@ -157,6 +157,8 @@ module "lz_vending" {
 
   subscription_update_existing = true
 
+  subscription_display_name = null
+
   subscription_id = each.value.subscription
 
   network_watcher_resource_group_enabled = true
