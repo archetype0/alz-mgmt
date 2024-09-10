@@ -1,4 +1,5 @@
 ---
+display_name: "Landing Zone 1"
 location: swedencentral
 management_group_id: contoso-corp
 virtual_networks:
