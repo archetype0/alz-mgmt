@@ -9,5 +9,6 @@ virtual_networks:
       - "10.0.0.0/24"
     resource_group_name: my-rg
     hub_peering_enabled: true
+    hub_peering_use_remote_gateways: false
     hub_network_resource_id: /subscriptions/021124c7-8f3d-4bd7-a631-21ab942d69e5/resourceGroups/contoso-connectivity-swedencentral/providers/Microsoft.Network/virtualNetworks/contoso-hub-swedencentral
 subscription: df73c1a8-6217-413d-b139-48485a99e5b0
