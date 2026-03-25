@@ -815,6 +815,7 @@ type hubVirtualNetworkType = {
   ddosProtectionPlanSettings: ddosProtectionPlanType
 
   @description('Required. The location of the virtual network.')
+  @minLength(1)
   location: string
 
   @description('Optional. Resource ID of an existing DDoS protection plan to associate with the virtual network. If not specified and deployDdosProtectionPlan is true, a new DDoS protection plan will be created.')
